@@ -24,3 +24,15 @@
    `docker exec -it my-mysql mysql -uroot -p123 -e "CREATE DATABASE my_database CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"`
 3. Импортируйте данные из дампа:
    `docker exec -i my-mysql mysql -uroot -p123 my_database < dump_clean.sql`
+
+## 📸 Скриншоты работы
+
+### Главный экран
+![Скриншот 1](photo_1.jpg)
+
+### Процесс работы
+![Скриншот 2](photo_2.jpg)
+
+### Дополнительный скриншот
+*(Примечание: photo_3.htm — это веб-страница, GitHub не отображает её как картинку, но её можно скачать)*
+[Открыть photo_3.htm](photo_3.htm)
